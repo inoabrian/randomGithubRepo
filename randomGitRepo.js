@@ -105,5 +105,5 @@ GithubAPI.prototype.formBubble = function() {
       console.log('You might have forgotten the gitbub element');
    }
 };
-
-var test = new GithubAPI('inoabrian');
+// enter your username here
+var test = new GithubAPI('your-userName-here');
