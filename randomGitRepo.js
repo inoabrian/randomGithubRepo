@@ -49,6 +49,9 @@ GithubAPI.prototype.getDirection = function(){
    this.movingY = startY[randomGeneratedNumber];
 
 };
+/* 
+Does not do what is expected.
+Need to add bounds and collision detection.
 GithubAPI.prototype.animateBubble = function (){
    var bubble = $('#gitbub');
    var bubbleOffSet = $('#gitbub').offset();
@@ -90,7 +93,7 @@ GithubAPI.prototype.animateBubble = function (){
    setTimeout(function(){
       window.requestAnimationFrame(github.animateBubble.bind(this));
    }.bind(this),1000);
-}
+}*/
 
 GithubAPI.prototype.formBubble = function() {
    if($('.gitbub')){
